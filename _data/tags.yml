@@ -1,0 +1,23 @@
+- slug: nlp
+  name: "자연어처리"
+
+- slug: dl
+  name: "딥러닝"
+
+- slug: ml
+  name: "머신러닝"
+
+- slug: linux
+  name: "리눅스"
+
+- slug: math
+  name: "수학"
+
+- slug: linalg
+  name: "선형대수"
+
+- slug: coding
+  name: "코딩"
+
+- slug: books
+  name: "독서"

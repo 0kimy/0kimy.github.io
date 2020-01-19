@@ -4,6 +4,16 @@ layout: default
 <article>
   <header>
     {% if page.categories.size > 0 %}<span class="categories">{{ page.categories | join: ", "  | upcase }}</span>{% endif %}
+    {% if page.tags.size > 0 %}<span class="categories">
+      {% for existing_tag in site.data.tags %}
+        {% for tag in page.tags %}
+          {% if existing_tag.slug == tag %}
+            {{ existing_tag.name | prepend: "#"}}{% unless forloop.last %} {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </span>
+    {% endif %}
     <h1>{{ page.title }}</h1>
     {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
