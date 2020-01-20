@@ -16,8 +16,23 @@
 - slug: linalg
   name: "선형대수"
 
-- slug: coding
-  name: "코딩"
+- slug: gen-model
+  name: "생성 모델"
+
+- slug: ai
+  name: "인공지능"
+
+- slug: algorithm
+  name: "알고리즘"
+
+- slug: contextual-emb
+  name: "Contextual Embeddings"
+
+- slug: pytorch
+  name: "PyTorch"
+
+- slug: vim
+  name: "vim"
 
 - slug: books
   name: "독서"

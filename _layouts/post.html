@@ -8,7 +8,7 @@ layout: default
       {% for existing_tag in site.data.tags %}
         {% for tag in page.tags %}
           {% if existing_tag.slug == tag %}
-            {{ existing_tag.name | prepend: "#"}}{% unless forloop.last %} {% endunless %}
+            <a href="/tags/#{{ tag.slug }}">{{ existing_tag.name | prepend: "#"}}</a>{% unless forloop.last %} {% endunless %}
           {% endif %}
         {% endfor %}
       {% endfor %}
