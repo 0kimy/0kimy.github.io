@@ -17,7 +17,7 @@
   name: "선형대수"
 
 - slug: gen-model
-  name: "생성 모델"
+  name: "생성_모델"
 
 - slug: ai
   name: "인공지능"
@@ -26,13 +26,13 @@
   name: "알고리즘"
 
 - slug: contextual-emb
-  name: "Contextual Embeddings"
+  name: "contextual_embeddings"
 
 - slug: pytorch
   name: "PyTorch"
 
 - slug: vim
-  name: "vim"
+  name: "Vim"
 
 - slug: books
   name: "독서"
