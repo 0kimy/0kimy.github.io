@@ -25,6 +25,9 @@
 - slug: algorithm
   name: "알고리즘"
 
+- slug: cs
+  name: "컴퓨터공학"
+
 - slug: contextual-emb
   name: "contextual_embeddings"
 
